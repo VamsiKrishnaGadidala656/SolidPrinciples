@@ -36,7 +36,7 @@ public class Employee {
         Conclusion :: Main problem is This class handling multiple responsibilities.
      */
 
-    //Solutions
+    //Vamsi Solutions
     /*
         1.We can have separate classes for these functions...so each class has own logic..
         we will have object of those classes in this class..then we will call respective function.
