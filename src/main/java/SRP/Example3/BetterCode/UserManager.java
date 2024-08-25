@@ -12,4 +12,11 @@ public class UserManager {
         // Code to delete a user
         //this.userRepo.delete(username);
     }
+
+    // How to detect if SRP is not fulfilled?
+    /*
+            1.Monster Functions
+            2.Common/Util folders
+            3.To Much if-else
+     */
 }
