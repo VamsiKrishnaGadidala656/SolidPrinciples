@@ -17,4 +17,13 @@ public enum NotificationType {
     public  void sendWhatsappNotification() {
         System.out.println("Sending Whatsapp notification");
     }
+
+    /*
+        Extensibility::
+        we are not able extend/add new feature with modifying notificationSender class
+     */
+
+    /*
+
+     */
 }
