@@ -34,6 +34,8 @@ public abstract class CreditCard {
     public abstract void onlineTransfer();
     public abstract void swipeAndPay();
     public abstract void mandatePayments();
+    public abstract void upiPayment();
+    public abstract void internationalPayment();
 
     public void displayCreditCardDetails() {
         System.out.println("ccNumber: " + ccNumber + " with ownerName: " + ownerName);
