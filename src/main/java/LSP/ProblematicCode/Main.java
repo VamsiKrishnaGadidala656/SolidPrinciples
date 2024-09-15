@@ -34,6 +34,12 @@ public class Main {
             but here we can't place rupay card in place of creditcard becuase rupay card throw error when we call international payment.
             similary we can't place visa or mastercard in place of credit card because these cards throw error when we call UPI payment.
 
+            LSP indirectly suggest that
+            -> Inheritance might not be the best way always for reusability.
+            -> Do inheritance if and only if there is a strict is-A relationship
+            -> No change should be required in the codebase to accommodate a specific child class or you can say that
+               child classes should not need any special treatment.
+            -> child class should do exactly what the parent class expects.
          */
     }
 }
