@@ -39,4 +39,12 @@ public abstract class CreditCard {
     public void displayCreditCardDetails() {
         System.out.println("ccNumber: " + ccNumber + " with ownerName: " + ownerName);
     }
+
+    /*
+        1.Strategy Pattern
+        2.Command Pattern
+        3.Chain of Responsibility
+        4.State Pattern
+        5.Observer Pattern
+     */
 }
